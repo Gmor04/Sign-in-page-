@@ -1,0 +1,126 @@
+body{ width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mother-div{
+    width: 50%;
+    height: 63vh;
+    /* border: 1px solid black; */
+    background-color: rgba(173, 216, 230, 0.603);
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 15px;
+}
+.inner-div{
+    width: 80%;
+    height: 58vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+}
+.login{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: monospace;
+    color: red;
+    margin-top: 2%;
+}
+.innput-div{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.inpput{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.inpput2{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    
+    
+}
+::placeholder{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+.logbut{
+    width: 100%;
+    height: 6vh;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monospace;
+    font-style: italic;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+
+}
+.forg{
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: red;
+    font-style: italic;
+
+}
+.div-a{
+    text-align: center;
+    margin-top: 3%;
+}
+.forg:hover{
+    text-decoration: underline;
+}
+.div-o{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: red;
+    font-style: italic;
+    margin-top: 2%;
+}
+.disp{
+ text-align: center;
+ width: 100%;
+ height: 4vh;
+ /* border: 1px solid black; */
+ margin-top: 2%;
+ font-family: sans-serif;
+ color: black;
+ font-weight: 600;
+ font-size: 25px;
+}
+
+@media (max-width:500px) {
+    .mother-div{
+        width: 80%;
+        height: 63vh;
+        /* border: 1px solid black; */
+        background-color: rgba(173, 216, 230, 0.603);
+        box-shadow: 2px 2px 3px grey;
+        border-radius: 15px;
+    }
+}
